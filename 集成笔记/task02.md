@@ -20,10 +20,3 @@
 
 **【学习笔记】**
 
-    Bivariate function
-    Multivariate function
-
-    Partial derivative
-    Gradient: 梯度的本意是一个向量（矢量），表示某一函数在该点处的方向导数沿着该方向取得最大值，即函数在该点处沿着该方向（此梯度的方向）变化最快，变化率最大（为该梯度的模）  
-    Jacobian Matrix (m->n): 梯度向量是雅克比矩阵的特例！(m=1)  
-    Hessian Matrix: Hessian矩阵是梯度向量g(x)对自变量x的Jacobian矩阵  
