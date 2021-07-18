@@ -20,3 +20,24 @@
 
 **【学习笔记】**
 
+$\text{Generalization Error} = \text{Variance} + \text{Bias}^2 + \text{Irreducible Error}$
+
+How do we estimate generalization error?  
+1. Indirectly: Introduce penalty term to training error
+    * AIC (Akaike Information Criterion)  
+    $\text{AIC} = -2logL + 2*p$
+
+    * BIC (Bayesian Information Criterion)  
+    $\text{BIC} = -2logL + log(n)*p$
+
+    * $\text{C}_p = \frac{1}{n}(\text{RSS} + 2d\hat{\sigma}^2)$
+
+    * $\text{Adjusted }R^2 = 1 - \frac{RSS/(n-d-1)}{TSS/(n-1)}$
+2. Directly: Use test set error to estimate  
+    * Cross-validation
+
+
+Lasso  
+* LARS 算法简介: https://cosx.org/2011/04/an-introduction-to-lars/
+
+机器学习优化算法之贝叶斯优化: https://zhuanlan.zhihu.com/p/146329121

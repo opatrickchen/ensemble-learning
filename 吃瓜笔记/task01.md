@@ -17,4 +17,25 @@
 
 -------
 
-**【学习笔记】**
+**【学习笔记】**  
+
+1.2 基本术语
+
+    Dataset（数据集）  
+    Instance（示例）、Sample（样本）  
+    Attribute（属性）、Feature(特征)  
+    Attribute value（属性值）  
+    Attribute space（属性空间）、Sample space（样本空间）  
+    Feature vecotor（特征向量）  
+    Generalization（泛化能力）：学得模型适用于新样本的能力
+
+1.3 假设空间
+
+    Induction（归纳）
+        从特殊到一般的泛化（generalization）过程
+        从具体的事实归结出一般性规律
+    Deduction（演绎）
+        从一般到特殊的特化（specialization）过程
+        从基础原理推演出具体情况
+
+2.1 
